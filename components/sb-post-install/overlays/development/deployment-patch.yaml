@@ -12,5 +12,5 @@ spec:
   template:
     spec:
       containers:
-        - image: quay.io/mnagel/sb-post-install:8eb8bdb674e359869e732f0f200872ef8188436f@sha256:24cd6a44cb0d0ea64b7e454caedba1c7d57378d9daab6ef8e392b1a37eb6c149
+        - image: quay.io/mnagel/sb-post-install:6cc1a63efb48d6b006fe2d020d7974076345a98f@sha256:1d46603c24c83dee60ca616dbd3be6b45ad7aac41955dcbca82a8a08b93041d0
           name: container-image

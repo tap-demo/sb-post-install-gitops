@@ -1,0 +1,12 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+commonLabels:         
+  argocd/app-name: sb-post-install
+  janus-idp.io/tekton: sb-post-install
+  backstage.io/kubernetes-id: sb-post-install
+  backstage.io/kubernetes-namespace: rhtap-app 
+  app.kubernetes.io/part-of: sb-post-install
+resources:
+- deployment.yaml
+- route.yaml
+- service.yaml
